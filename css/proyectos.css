@@ -1,0 +1,106 @@
+.presentacion{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 2fr));
+    grid-auto-rows: 15rem;
+    gap: 50px;
+    text-align: center;
+}
+
+.targetaProyecto{
+    border-radius: 20px;    
+}
+
+.targetaProyecto:hover{
+    background-color: rgb(243, 243, 243);
+    transition: all .75s;
+    transform: translateY(-15px);
+    z-index: 2;
+}
+
+.divImagenTargeta{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.imgTargeta{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.nombreProyecto{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #000;
+}
+
+
+.btn-detalle:hover, .btn-detalle:active{
+    background: rgb(0, 183, 195);
+    transition: all .5s;
+    color: #fff;
+}
+.btn-detalle{
+    font-size: 0px;
+    width: 100%;
+}
+
+.aparecerBoton{
+    position: absolute;
+    bottom: 0;
+    font-size:15px;
+    display: block;
+    width: 100%;
+    text-decoration-line: none; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all .5s;
+    color: #000;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1280px){
+    .presentacion{
+        width: 90%;
+    }
+
+
+    .targetaProyecto{
+        border-radius: 20px;   
+        background:rgb(243, 243, 243);
+        height: max-content;
+
+    }
+
+    .presentacion{
+        display: grid;
+        margin-top: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 2fr));
+        grid-auto-rows: 15rem;
+        gap: 110px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .btn-detalle{
+        position: relative;
+        bottom: 0;
+        display: block;
+        font-size: 15px;
+        width: 100%;
+        background: rgb(0, 183, 195);
+        color: #fff;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration-line: none;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin-top: 25px;
+    }
+
+    .btn-detalle:active{
+        background: rgb(117, 172, 255);
+        color: #fff;
+    }
+    
+}

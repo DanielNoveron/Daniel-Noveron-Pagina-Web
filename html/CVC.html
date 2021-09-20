@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es" class="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/descripcionProyecto.css">
+    <link rel="shortcut icon" href="../img/LogoPNG.png">
+    <title>PDGN | Pagina web</title>
+</head>
+
+<body>
+    <input type="checkbox" name="inputCheckVentanaImagen" id="inputCheckVentanaImagen">
+    <input type="hidden" value="CVC" id="carpetaImagenes">
+    <div class="ventanaMostrarImagen">
+        <div class="cabezaVentana">
+            <i class="fas fa-times-circle iconoCerrarVentana" title="Cerrar ventana"></i>
+        </div>
+        
+        <div class="imagenAMostrar">
+            <img class="imagenMostrada" src="../img/CVC/1.png" alt="Imagen">
+        </div>
+
+        <div class="pieVentana">
+            <div class="controlesVentanaImagen">
+                <i class="fas fa-chevron-left regresar" title="Regresar"></i>
+                <output class="numeroImagen">
+                    1
+                </output>
+                <i class="fas fa-chevron-right siguientee" title="Siguiente"></i>
+                <i class="fas fa-external-link-square-alt pantallaCompleta" title="Ver pantalla completa"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="capaNegra"></div>
+    
+    <header class="header">
+        <p>¡Bienvenido a mi pagina web!
+            <i class="fas fa-code"></i>
+        </p>
+    </header>
+    <img class="img-logo__header" src="../img/LogoPDGN.png" alt="LogoPDGN">
+
+    <p class="miNombre">Contacting Vanguard Customer (CVC)
+            <img class="imgLogo" title="Logo de empresa RZN Vanguard S.A de C.V" src="../img/logoAlone.png" alt="logoRZN Vanguard S.A de C.V">
+    </p>
+    <div class="contenedor">
+        <input type="checkbox" name="checkCapaNegra" id="checkCapaNegra">
+  
+
+        <label for="checkCapaNegra" class="btn-menuResponsive">
+            <i class="fas fa-ellipsis-h"></i>
+            Menú
+        </label>
+        <nav class="menu">
+            <ul class="menu-ul">
+                <li class="arrow anterior" title="anterior">
+                    <i class="fas fa-arrow-left"></i>
+                </li>
+                <li class="option">
+                    <a class="link" href="../index.html">
+                        <i class="fas fa-home"></i>
+                        <p class="textM">Inicio</p>
+                    </a>
+                </li>
+                <li class="option">
+                    <a class="link" href="./proyectos.html">
+                        <i class="fas fa-laptop-code"></i>
+                        <p class="textM">Proyectos</p>
+
+                    </a>
+                </li>
+                <li class="option">
+                    <a class="link" href="https://www.facebook.com/daniel.noveron.94/" target="_BLANK">
+                        <i class="fab fa-facebook"></i>
+                        <p class="textM">Facebook</p>
+                    </a>
+                </li>
+                <li class="option">
+                    <a class="link" href="https://twitter.com/DanielNoveron3" target="_BLANK">
+                        <i class="fab fa-twitter"></i>
+                        <p class="textM">Twitter</p>
+                    </a>
+                </li>
+                <li class="option">
+                    <a class="link" href="https://www.linkedin.com/in/pedro-daniel-gomez-noveron-4838b6215/"
+                        target="_BLANK">
+                        <i class="fab fa-linkedin-in"></i>
+                        <p class="textM">Linkedin</p>
+                    </a>
+                </li>
+                <li class="option" id="option">
+                    <a class="link" href="https://github.com/DanielNoveron" target="_BLANK">
+                        <i class="fab fa-github-alt"></i>
+                        <p class="textM">Github</p>
+                    </a>
+                </li>
+                <li class="arrow siguiente" title="siguiente">
+                    <i class="fas fa-arrow-right"></i>
+                </li>
+            </ul>
+        </nav>
+ 
+        <div class="presentacion">
+
+            <h4 class="titulo">Enlace directo:</h4>
+            <a href="http://contactingvanguardcustomer.000webhostapp.com/" class="enlaceDirecto" target="__BLANK">
+                Contacting Vanguard Customer.
+            </a>
+
+            <h4 class="titulo">Breve descripción:</h4>
+            <p>Aplicación web desarrollada para la empresa RZN Vanguard S.A de C.V. <br>
+                 Ésta aplicación permite registrar a los clientes de la empresa, la misma app tiene la función incluida de enviar 
+                 correos electronicos a los consumidores registrados. El email enviado cuenta con un diseño en especifico, pero 
+                 los datos del cliente se colocarán de forma dinamica dependiendo del cliente que se elija, para posteriormente su envio. 
+                  <br>
+                Esta misma, cuenta con la recuperación de contraseñas de los usuarios autorizados de la aplicación.
+            </p>
+
+            <h4 class="titulo">Tecnológias utilzadas:</h4>
+            <div class="lenguajes">
+                <p class="tecnologia">
+                    <i class="fab fa-php icon php"></i>
+                    PHP
+                </p>
+                <p class="tecnologia">
+                    <i class="fab fa-js icon javascript"></i>
+                    Javascript
+                </p>
+                <p class="tecnologia">
+                    <i class='bx bxl-jquery icon jquery'></i>
+                    JQuery
+                </p>
+                <p class="tecnologia">
+                    <i class="fab fa-html5 icon html5"></i>
+                    HTML
+                </p>
+    
+                <p class="tecnologia">
+                    <i class="fab fa-css3 icon css"></i>
+                    CSS
+                </p>
+                <p class="tecnologia">
+                    <i class="fab fa-bootstrap icon bootstrap"></i>
+                    Bootstrap
+                </p>
+                <p class="tecnologia">
+                    <img class="imgMysql" src="../img/otros/mysql.png" width="70px" alt="" srcset="">
+                    Mysql
+                </p>
+            </div>
+
+            <h4 class="titulo">Imagenes</h4>
+            <small>Click
+                 <i class="far fa-hand-pointer"></i>
+                  en la imagen para verla</small>
+
+            <div class="imagenes">
+                <div class="divImg">
+                    <img src="../img/CVC/0.png" id="img" alt="" srcset="">
+                    <p class="circuloNumero">1</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/CVC/1.png" id="img" alt="" srcset="">
+                    <p class="circuloNumero">2</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/CVC/2.png" id="img" alt="" srcset="">
+                    <p class="circuloNumero">3</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/CVC/3.png" id="img" alt="" srcset="">
+                    <p class="circuloNumero">4</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/CVC/4.png" id="img" alt="" srcset="">
+                    <p class="circuloNumero">5</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/CVC/5.png" id="img" class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">6</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/CVC/6.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">7</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/CVC/7.png" id="img" class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">8</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/CVC/8.png" id="img" alt="" srcset=""> 
+                    <p class="circuloNumero">9</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/CVC/9.png" id="img" class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">10</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/CVC/10.png" id="img" class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">11</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/CVC/11.png" id="img" alt="" srcset="">
+                    <p class="circuloNumero">12</p>
+                </div>
+    
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            &copy; Copyright 2021 | Pedro Daniel Gomez Noveron <img src="../img/LogoPNG.png" alt="logoPDGN"> |
+            Desarrollador web back-end
+        </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/proyectos.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/mostrarImagen.js"></script>
+    
+</body>
+
+</html>

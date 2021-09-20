@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es" class="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/descripcionProyecto.css">
+    <link rel="shortcut icon" href="../img/LogoPNG.png">
+    <title>PDGN | Pagina web</title>
+</head>
+
+<body>
+    <input type="checkbox" name="inputCheckVentanaImagen" id="inputCheckVentanaImagen">
+    <input type="hidden" value="EST39" id="carpetaImagenes">
+    <div class="ventanaMostrarImagen">
+        <div class="cabezaVentana">
+            <i class="fas fa-times-circle iconoCerrarVentana" title="Cerrar ventana"></i>
+        </div>
+        
+        <div class="imagenAMostrar">
+            <img class="imagenMostrada" src="../img/CVC/1.png" alt="Imagen">
+        </div>
+
+        <div class="pieVentana">
+            <div class="controlesVentanaImagen">
+                <i class="fas fa-chevron-left regresar" title="Regresar"></i>
+                <output class="numeroImagen">
+                    1
+                </output>
+                <i class="fas fa-chevron-right siguientee" title="Siguiente"></i>
+                <i class="fas fa-external-link-square-alt pantallaCompleta" title="Ver pantalla completa"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="capaNegra"></div>
+    
+    <header class="header">
+        <p>¡Bienvenido a mi pagina web!
+            <i class="fas fa-code"></i>
+        </p>
+    </header>
+    <img class="img-logo__header" src="../img/LogoPDGN.png" alt="LogoPDGN">
+
+    <p class="miNombre">Esc. Sec. Tec. Num. 39 (EST39)
+            <img class="imgLogo" title="Logo de Escuelas Secundarias Técnicas." src="../img/logoEscTecs.jpg" title="Logo de secundarias técnicas">
+    </p>
+    <div class="contenedor">
+        <input type="checkbox" name="checkCapaNegra" id="checkCapaNegra">
+  
+
+        <label for="checkCapaNegra" class="btn-menuResponsive">
+            <i class="fas fa-ellipsis-h"></i>
+            Menú
+        </label>
+        <nav class="menu">
+            <ul class="menu-ul">
+                <li class="arrow anterior" title="anterior">
+                    <i class="fas fa-arrow-left"></i>
+                </li>
+                <li class="option">
+                    <a class="link" href="../index.html">
+                        <i class="fas fa-home"></i>
+                        <p class="textM">Inicio</p>
+                    </a>
+                </li>
+                <li class="option">
+                    <a class="link" href="./proyectos.html">
+                        <i class="fas fa-laptop-code"></i>
+                        <p class="textM">Proyectos</p>
+
+                    </a>
+                </li>
+                <li class="option">
+                    <a class="link" href="https://www.facebook.com/daniel.noveron.94/" target="_BLANK">
+                        <i class="fab fa-facebook"></i>
+                        <p class="textM">Facebook</p>
+                    </a>
+                </li>
+                <li class="option">
+                    <a class="link" href="https://twitter.com/DanielNoveron3" target="_BLANK">
+                        <i class="fab fa-twitter"></i>
+                        <p class="textM">Twitter</p>
+                    </a>
+                </li>
+                <li class="option">
+                    <a class="link" href="https://www.linkedin.com/in/pedro-daniel-gomez-noveron-4838b6215/"
+                        target="_BLANK">
+                        <i class="fab fa-linkedin-in"></i>
+                        <p class="textM">Linkedin</p>
+                    </a>
+                </li>
+                <li class="option" id="option">
+                    <a class="link" href="https://github.com/DanielNoveron" target="_BLANK">
+                        <i class="fab fa-github-alt"></i>
+                        <p class="textM">Github</p>
+                    </a>
+                </li>
+                <li class="arrow siguiente" title="siguiente">
+                    <i class="fas fa-arrow-right"></i>
+                </li>
+            </ul>
+        </nav>
+ 
+        <div class="presentacion">
+
+            <h4 class="titulo red">Aún no alojada en hosting</h4>
+            
+
+            <h4 class="titulo">Breve descripción:</h4>
+            <p>
+                Aplicación web realizada para la Escuela Secundaria Técnica Número 39 "Jesús Reyes Heroles" con la intención que los aspirantes de la institución puedan realizar sus pre-inscripciones,
+                 permitiendo a los aspirantes ejecutar esta acción desde sus hogares, facilitando su proceso y evitando el riesgo de contagios por SARS-CoV-2. <br>
+                 Las funciones que cuenta esta aplicación son: <br>
+            </p>
+            <p class="parteAspirante">Por parte del aspirante:</p>
+                <ul class="listaAcciones">
+                    <li>Llenar formulario con su información (texto, foto y archivos) para realizar su pre-inscripción</li>
+                    <li>Modificación de información en el registro</li>
+                    <li>Busqueda de comprobante (evidencia para su inscripción)</li>
+                    <li>Impresión de comprobante</li>
+                </ul>
+
+                <p class="parteAdmin">Por parte del personal de pre-inscripciones:</p>
+            
+                <ul class="listaAcciones">
+                    <li>Inicio de sesión</li>
+                    <li>Ver lista de aspirantes</li>
+                    <li>Actualización de datos del postulado</li>
+                    <li>Visualizar información y archivos del aspirante</li>
+                    <li>Eliminación de registros</li>
+                    <li>Aceptar aspirante o rechazarlo</li>
+                    <li>Realizar busqueda de un aspirante</li>
+                    <li>Generar PDF de la lista de los aspirantes</li>
+                    <li>Crear un Excel con la lista de los candidatos</li>
+                    <li>Abrir y cerrar sistema de pre-inscripciones</li>
+                    <li>Colocar imagen en la interfaz de inicio de la aplicación</li>
+                    <li>Eliminar por completo de la base de datos los registros de los aspirantes (en proceso, aceptados, rechazados) </li>
+                    <li>Remover archivos de los postulados alojados dentro del servidor</li>
+                </ul>
+
+            <h4 class="titulo">Tecnológias utilzadas:</h4>
+            <div class="lenguajes">
+                <p class="tecnologia">
+                    <i class="fab fa-java icon java"></i>
+                    Java
+                </p>
+                <p class="tecnologia">
+                    <i class='bx bxl-spring-boot icon spring' ></i>
+                    Spring
+                </p>
+                <p class="tecnologia">
+                    <i class="fab fa-js icon javascript"></i>
+                    Javascript
+                </p>
+                <p class="tecnologia">
+                    <i class='bx bxl-jquery icon jquery'></i>
+                    JQuery
+                </p>
+                <p class="tecnologia">
+                    <i class="fab fa-html5 icon html5"></i>
+                    HTML
+                </p>
+    
+                <p class="tecnologia">
+                    <i class="fab fa-css3 icon css"></i>
+                    CSS
+                </p>
+                <p class="tecnologia">
+                    <i class='fab fa-bootstrap icon bootstrap'></i>
+                    Bootstrap
+                </p>
+                <p class="tecnologia">
+                    <img class="imgMysql" src="../img/otros/mysql.png" width="70px" alt="" srcset="">
+                    Mysql
+                </p>
+            </div>
+
+            <h4 class="titulo">Imagenes</h4>
+            <small>Click
+                 <i class="far fa-hand-pointer"></i>
+                  en la imagen para verla</small>
+
+            <div class="imagenes">
+                <div class="divImg">
+                    <img src="../img/EST39/0.png" id="img" alt="" srcset="">
+                    <p class="circuloNumero">1</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/1.png" id="img" alt="" srcset="">
+                    <p class="circuloNumero">2</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/2.png" id="img" alt="" srcset="">
+                    <p class="circuloNumero">3</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/3.png" id="img" alt="" srcset="">
+                    <p class="circuloNumero">4</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/4.png" id="img" alt="" srcset="">
+                    <p class="circuloNumero">5</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/5.png" id="img" class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">6</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/6.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">7</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/7.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">8</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/8.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">9</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/9.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">10</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/10.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">11</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/11.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">12</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/12.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">13</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/13.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">14</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/14.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">15</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/15.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">16</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/16.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">17</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/17.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">18</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/18.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">19</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/19.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">20</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/20.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">21</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/21.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">22</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/22.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">23</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/23.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">24</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/24.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">25</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/25.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">26</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/26.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">27</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/27.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">28</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/28.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">29</p>
+                </div>
+                <div class="divImg">
+                    <img src="../img/EST39/29.png" id="img"class="imagenE" alt="" srcset="">
+                    <p class="circuloNumero">30</p>
+                </div>
+
+    
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            &copy; Copyright 2021 | Pedro Daniel Gomez Noveron <img src="../img/LogoPNG.png" alt="logoPDGN"> |
+            Desarrollador web back-end
+        </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/proyectos.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/mostrarImagen.js"></script>
+    
+</body>
+
+</html>
