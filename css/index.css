@@ -226,7 +226,7 @@ footer > p >img{
         transition: all .5s;
     }
     .optionsOnRows{
-        margin-top: 25px;
+        margin-top: 35px;
         margin-bottom: 25px;
         grid-template-columns: auto auto auto auto auto auto !important;
     }
