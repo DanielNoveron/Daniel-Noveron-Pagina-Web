@@ -1,4 +1,4 @@
-# miPaginaweb
+# Daniel Noveron | Página Web
 
 Mi nombre es Pedro Daniel Gómez Noveron y en éste repositorio agrego mi pagina web personal, para
 que puedas ver el trabajo que he realizado durante mi carrera profesional de 
