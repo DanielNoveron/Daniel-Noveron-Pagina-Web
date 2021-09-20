@@ -5,4 +5,4 @@ que puedas ver el trabajo que he realizado durante mi carrera profesional de
 Desarrollador de Software Multiplataforma en la rama de Desarrollador web.
 
 Enlace de mi pagina web:
-https://danielnoveron.github.io/miPaginaweb/
+https://danielnoveron.github.io/Daniel-Noveron-Pagina-Web/
