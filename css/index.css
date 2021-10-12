@@ -50,6 +50,10 @@
     left: 50px; 
 }
 
+.imgMysql, .imgOracleXE{
+    vertical-align: middle;
+}
+
 .miNombre{
     font-size: 37px;
     font-weight: bolder;
