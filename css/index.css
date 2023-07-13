@@ -347,7 +347,7 @@ html::-webkit-scrollbar-track {
 .div-portfolio {
   width: 100%;
   height: 100vh;
-  background-image: url(../resources/images/bgProyectos.png);
+  background-image: url(../resources/images/bgProyectos.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -390,7 +390,7 @@ html::-webkit-scrollbar-track {
 .div-contact__me {
   width: 100%;
   height: 100vh;
-  background-image: url(../resources/images/bgContactame.png);
+  background-image: url(../resources/images/bgContactame.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -727,7 +727,6 @@ footer {
   .div-portfolio {
     width: 100%;
     height: max-content;
-    background-image: url(../resources/images/bgProyectos.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
