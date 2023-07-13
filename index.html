@@ -1,206 +1,431 @@
 <!DOCTYPE html>
-<html lang="es" class="html">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="shortcut icon" href="./img/logoPNG.png" type="image/png">
-    <title>PDGN | Pagina web</title>
-</head>
-
-<body>
-
-    <div class="div-window-visit">
-        <div class="div-window-visit-header">
-            <div class="icon-pdgn-new">
-                <img src="./img/image.png" alt="LOGO" >
-            </div>
-            <h1 class="titulo-window-visit">
-                ¡Visita mi nueva pagina web!
-            </h1>
-        </div>
-        <div class="div-window-visit-body">
-            <ul class="text-body-visit">
-                    <li>Mas intuitiva</li>
-                    <li>Con un mejor diseño</li>
-                    <li>Más proyectos realizados</li>
-                    <li>Servicios que ofrezco</li>
-                    <li>Detalles sobre mi</li>
-                    <li>Medios para contactarme</li>
-                    <li>Con comentarios y experiencias sobre mi trabajo</li>
-            </ul>
-            <p class="link-visit">
-                Enlace directo: <a class="link-my-new-web-page" href="http://www.danielnovdev.com">
-                    www.danielnovdev.com
-                </a>
-            </p>
-        </div>
-        <i class="fas fa-times icon-close-window-visit"></i>
-    </div>
-    
-    <div class="capaNegra"></div>
-    <header class="header">
-        <p>¡Bienvenido a mi pagina web!
-            <i class="fas fa-code"></i>
-        </p>
-    </header>
-    <img class="img-logo__header" src="./img/LogoPDGN.png" alt="LogoPDGN">
-
-    <p class="miNombre">Mi nombre es Pedro Daniel Gómez Noverón</p>
-    <div class="contenedor">
-        <input type="checkbox" name="checkCapaNegra" id="checkCapaNegra">
-        
-        <label for="checkCapaNegra" class="btn-menuResponsive">
-            <i class="fas fa-ellipsis-h"></i>
-            Menú
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDGN | Página web</title>
+    <link rel="shortcut icon" href="./PDGN_WHITE.svg" type="image/svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="showmenu">
+    <nav class="fixed-menu">
+      <ul>
+        <li class="part-menu">
+          <img src="./PDGN_WHITE.svg" alt="logoHeader" />
+        </li>
+        <label for="showmenu" class="drop-menu">
+          <img class="logo-menuo__ption" src="./resources/images/PDGN_WHITE.webp" alt="LOGO">
+          Menú <i class="fa fa-solid fa-chevron-down"></i>
         </label>
-    <nav class="menu">
-        <ul class="menu-ul">
-            <li class="arrow anterior" title="anterior">
-                    <i class="fas fa-arrow-left"></i>
-            </li>
-            <li class="option">
-                <a class="link" href="./index.html">
-                    <i class="fas fa-home"></i>
-                    <p class="textM">Inicio</p>
-                </a>
-            </li>
-            <li class="option">
-                <a class="link" href="./html/proyectos.html">
-                    <i class="fas fa-laptop-code"></i>
-                    <p class="textM">Proyectos</p>
-
-                </a>
-            </li>
-            <li class="option">
-                <a class="link" href="https://www.facebook.com/daniel.noveron.94/" target="_BLANK">
-                    <i class="fab fa-facebook"></i>
-                    <p class="textM">Facebook</p>
-                </a>
-            </li>
-            <li class="option">
-                <a class="link" href="https://twitter.com/DanielNoveron3" target="_BLANK">
-                    <i class="fab fa-twitter"></i>
-                    <p class="textM">Twitter</p>
-                </a>
-            </li>
-            <li class="option">
-                <a class="link" href="https://www.linkedin.com/in/pedro-daniel-gomez-noveron-4838b6215/" target="_BLANK">
-                    <i class="fab fa-linkedin-in"></i>
-                    <p class="textM">Linkedin</p>
-                </a>
-            </li>
-            <li class="option" id="option">
-                <a class="link" href="https://github.com/DanielNoveron" target="_BLANK">
-                    <i class="fab fa-github-alt"></i>
-                    <p class="textM">Github</p>
-                </a>
-            </li>
-            <li class="arrow siguiente" title="siguiente">
-                    <i class="fas fa-arrow-right"></i>
-            </li>
-        </ul>
+        <label for="showmenu"></label>
+          <li class="option-menu"><a href="#about-me">Sobre mi</a></li>
+          <li class="option-menu"><a href="#my-experience">Experiencia</a></li>
+          <li class="option-menu"><a href="#my-porfolio">Portafolio</a></li>
+          <li class="option-menu"><a href="#contact-me">Contactame</a></li>
+          <li class="option-menu"><a href="#comments">Comentarios sobre mi</a></li>
+      </ul>
     </nav>
-
-    <div class="presentacion">
-        <p>
-            Soy Desarrollador web back-end con camino y entusiasmo a convetirme en desarrollador Full Stack.
-            Soy de Nezahualcóyotl, Estado de México. He
-            elaborado y contribuido en proyectos en esta área desde hace 2 años. Me
-            encanta la programación, amo lo que hago, disfruto a seguir
-            aprendiendo de esta rama y siempre busco las mejores soluciones a
-            problemáticas o necesidades, entregando productos de calidad. <br><br>
-            Las tecnologías que sé manejar son: <br><br>
-        </p>
-        <div class="lenguajes">
-            <p class="tecnologia">
-                <i class="fab fa-java icon java"></i> 
-                Java
-            </p>
-            <p class="tecnologia">
-                <i class="fab fa-js icon"></i>
-                Javascript
-            </p>
-            <!-- <p class="tecnologia">
-                <i class="fab fa-python icon"></i>
-                Phyton
-            </p> -->
-            <p class="tecnologia">
-                <i class="fab fa-php icon"></i>
-                PHP
-            </p>
-            <p class="tecnologia">
-                <i class='bx bxl-spring-boot icon' ></i>
-                Spring
-            </p>
-            
-            <!-- <p class="tecnologia">
-                <i class="fab fa-node-js icon"></i>
-                NodeJS
-            </p>
-            <p class="tecnologia">
-                <i class="icon">dj</i>
-                Django
-            </p> 
-            <p class="tecnologia">
-                <i class="fab fa-laravel icon"></i>
-                Laravel
-            </p>-->
-            <p class="tecnologia">
-                <i class='bx bxl-jquery icon'></i>
-                JQuery
-            </p>
-            <p class="tecnologia">
-                <i class="fab fa-html5 icon"></i>
-                HTML
-            </p>
-
-            <p class="tecnologia">
-                <i class="fab fa-css3 icon"></i>
-                CSS
-            </p>
-            <p class="tecnologia">
-                <i class="fab fa-bootstrap icon"></i>
-                Bootstrap
-            </p>
-            <p class="tecnologia">
-                <img class="imgMysql" src="./img/otros/mysql.png" width="70px" alt="" srcset="">
-                Mysql
-            </p>
-            <p class="tecnologia">
-                <img class="imgOracleXE" src="./img/otros/oracleDB.png" width="70px" alt="" srcset="">
-                Oracle DB
-            </p>
+    <div class="div-presentation">
+      <div class="div-logo-presentation">
+        <div class="div-img-logo">
+          <img src="./resources/images/PDGN_WHITE.webp" alt="logo" />
         </div>
-        <div class="frameworks">
-            <p class="tecnologia"></p>
-            <p class="tecnologia"></p>
-            <p class="tecnologia"></p>
-            <p class="tecnologia"></p>
-            <p class="tecnologia"></p>
-            <p class="tecnologia"></p>
-            <p class="tecnologia"></p>
+        <h1>DANIEL NOVERON</h1>
+        <h2>DESARROLLADOR WEB</h2>
+        <button onclick="window.location.href='#about-me'">
+          <span class="span-downs"
+            ><i class="fa fa-angle-double-down" aria-hidden="true"></i
+          ></span>
+          Conoceme mejor
+        </button>
+      </div>
+    </div>
+    <div id="about-me" class="div-seniority">
+      <div class="div-mask-gradient">
+        <div class="info-seniority subtitle-about-me">
+          <div class="div-header-section-yourself">
+            <h2 class="section-page">SOBRE MI</h2>
+            <button id="download-button" class="button-download-cv">
+              <i class="fa fa-download" aria-hidden="true"></i>
+              Descargar CV
+            </button>
+          </div>
+          <p class="text-seniority">
+            <strong>¡Bienvenido a mi página web!</strong> <br />
+            Mi nombre es Pedro Daniel Gómez Noverón
+            <br />
+            y Soy un Desarrollador web full stack apasionado por el mundo
+            digital. Con amplia experiencia en el desarrollo de aplicaciones
+            web, desde la creación de interfaces atractivas hasta la
+            implementación de la lógica y la infraestructura detrás de ellas.
+            <br />
+            He tenido el privilegio de colaborar con diversos clientes y equipos
+            multidisciplinarios, lo que me ha permitido adquirir una gran
+            adaptabilidad y habilidades de trabajo en equipo. Mi compromiso con
+            la excelencia y mi atención al detalle garantizan la entrega de
+            proyectos de alta calidad en los plazos acordados.
+            <br /><br />
+            Poseo habilidades de desarrollo web full stack, dominando
+            tecnologías modernas y frameworks como:
+          </p>
+          <div class="div-domain-technologys">
+            <p>
+              <i class="fab fa-java java"></i>
+              Java
+            </p>
+            <p>
+              <i class="bx bxl-spring-boot spring"></i>
+              Spring (MVC, Boot, Quarkus)
+            </p>
+            <p>
+              <i class="bx bxl-angular angular"></i>
+              Angular
+            </p>
+            <p>
+              <i class="bx bxl-typescript typescript"></i>
+              Typescript
+            </p>
+            <p>
+              <i class="bx bxl-javascript javascript"></i>
+              JavaScript
+            </p>
+            <p>
+              <i class="bx bxl-jquery jquery"></i>
+              JQuery
+            </p>
+            <p>
+              <i class="fab fa-php php"></i>
+              PHP
+            </p>
+            <p>
+              <i class="bx bxl-html5 html5"></i>
+              HTML5
+            </p>
+            <p>
+              <i class="bx bxl-css3 css3"></i>
+              CSS3
+            </p>
+            <p>
+              <i class="bx bxl-bootstrap bootstrap"></i>
+              Bootstrap
+            </p>
+            <p>
+              <i class="bx bxl-angular angular-material"></i>
+              Angular Material
+            </p>
+            <p>
+              <i class="bx bxs-data"></i>
+              MySQL
+            </p>
+            <p>
+              <i class="bx bxs-data"></i>
+              SQLServer
+            </p>
+            <p>
+              <i class="bx bxs-data"></i>
+              Oracle BD
+            </p>
+            <p>
+              <i class="bx bxl-postgresql postgresql"></i>
+              PostgreSQL
+            </p>
+            <p>
+              <i class="bx bxl-git git"></i>
+              Git
+            </p>
+            <p>
+              <i class="bx bxl-github github"></i>
+              GitHub
+            </p>
+            <p>
+              <i class="bx bxl-gitlab gitlab"></i>
+              GitLab
+            </p>
+            <p>
+              <i class="fab fa-linux"></i>
+              Linux
+            </p>
+            <p>
+              <i class="bx bx-wifi-1 postgresql"></i>
+              SonarQube
+            </p>
+          </div>
+          <p class="text-seniority abilitys">
+            Habilidades adicionales: <br /><br />
+            <span>AdobeXD</span>
+            <span>Canva</span>
+            <span>UX/UI</span>
+            <span>Diseño gráfico</span>
+          </p>
         </div>
+      </div>
     </div>
+    <div id="my-experience" class="div-experience">
+      <div class="div-mask-gradient">
+        <div class="info-seniority">
+          <div class="div-header-section-experience">
+            <h2 class="section-page sp">MI EXPERIENCIA</h2>
+          </div>
+          <p class="text-seniority">
+            Con una destacada experiencia en el desarrollo web, he tenido el
+            privilegio de colaborar con diversas empresas, aportando mis
+            habilidades y conocimientos para impulsar su presencia en línea. A
+            lo largo de mi trayectoria, he participado en una variedad de
+            proyectos desafiantes y estimulantes, en los cuales he demostrado mi
+            capacidad para crear soluciones digitales de alto rendimiento.
+            <br />
+            Estoy entusiasmado por continuar enfrentando nuevos desafíos y
+            explorar oportunidades emocionantes en el desarrollo web. Si estás
+            buscando un profesional apasionado y experimentado para impulsar tu
+            presencia en línea, estoy listo para colaborar contigo y llevar tu
+            empresa al siguiente nivel digital.
+            <br /><br />
+            Las empresas en las cuales he contribuido son:
+          </p>
+          <div class="div-company-experience">
+            <div class="div-company">
+              <img
+                src="./resources/images/company-experience/est39.webp"
+                alt="COMPANY"
+              />
+            </div>
+            <div class="div-company">
+              <img
+                src="./resources/images/company-experience/cvc (2).webp"
+                alt="COMPANY"
+              />
+            </div>
+            <div class="div-company">
+              <img
+                src="./resources/images/company-experience/baz.webp"
+                alt="COMPANY"
+              />
+            </div>
+            <div class="div-company">
+              <img
+                src="./resources/images/company-experience/praxis.webp"
+                alt="COMPANY"
+              />
+            </div>
+            <div class="div-company">
+              <img
+                src="./resources/images/company-experience/hsbc.webp"
+                alt="COMPANY"
+              />
+            </div>
+            <div class="div-company">
+              <img
+                src="./resources/images/company-experience/dhl.webp"
+                alt="COMPANY"
+              />
+            </div>
+            <div class="div-company">
+              <img
+                src="./resources/images/company-experience/multiva.webp"
+                alt="COMPANY"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
+    <div id="my-porfolio" class="div-portfolio">
+      <div class="div-mask-gradient">
+        <div class="info-seniority">
+          <div class="div-header-section-experience">
+            <h2 class="section-page sp">PORTAFOLIO</h2>
+          </div>
+          <p class="text-seniority">
+            En esta sección, te invito a explorar una selección de los proyectos
+            en los que he trabajado con pasión y dedicación. Aquí podrás
+            encontrar ejemplos concretos de mi experiencia en el desarrollo web,
+            desde aplicaciones interactivas hasta sitios web funcionales y
+            atractivos. <br /><br />
+            Cada proyecto ha sido una oportunidad para desafiarme a mí mismo,
+            perfeccionar mis habilidades y entregar soluciones digitales de alta
+            calidad. Me enorgullece compartir contigo estas creaciones, con la
+            esperanza de que puedas apreciar el nivel de detalle y el cuidado
+            que he puesto en cada uno de ellos. <br /><br />
+            Selecciona alguno de los proyectos, se re redireccionará a Google
+            Drive, donde encontrarás las imágenes de dicho proyecto al cual le
+            des clic, algunos te reedireccionarán a la página donde está alojada
+            la aplicación o pagina web.
+          </p>
+          <div class="div-company-experience">
+            <div class="div-company element-portfolio location">
+              <img
+                src="./resources/images/portfolio/Diceselo.svg"
+                alt="COMPANY"
+              />
+            </div>
+            <div class="div-company element-portfolio location">
+              <img
+                src="./resources/images/company-experience/est39.webp"
+                alt="COMPANY"
+              />
+            </div>
+            <div class="div-company element-portfolio location">
+              <img
+                src="./resources/images/company-experience/cvc (2).webp"
+                alt="COMPANY"
+              />
+            </div>
+            <div class="div-company element-portfolio location">
+              <img
+                src="./resources/images/portfolio/simulacionIOT.webp"
+                alt="COMPANY"
+              />
+            </div>
+            <div class="div-company element-portfolio location">
+              <img
+                src="./resources/images/portfolio/logoHamburguer.webp"
+                alt="COMPANY"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact-me" class="div-contact__me">
+      <div class="div-mask-gradient">
+        <div class="info-seniority">
+          <div class="div-header-section-experience">
+            <h2 class="section-page sp">CONTACTAME</h2>
+          </div>
+          <p class="text-seniority tccont">
+            ¡Me encantaría escuchar tus ideas y colaborar en tu próximo
+            proyecto! Si tienes alguna consulta, solicitud de presupuesto o
+            simplemente deseas conocer más sobre mis servicios, no dudes en
+            contactarme. Puedes comunicarte conmigo a través de los siguientes
+            medios: <br /><br />
+            <i class="bx bxl-whatsapp icon-c"></i> Teléfono o WhatsApp: [<a
+              class="contact-location"
+              href="tel:+52-5628385629"
+              >+52-5628385629</a
+            >]
+            <br />
+            <i class="bx bxl-gmail icon-c"></i> Correo electrónico:
+            <a class="contact-location" href="mailto:pxadn2906@gmail.com"
+              >pxadn2906@gmail.com</a
+            >
+            <br />
+            <i class="bx bxl-linkedin icon-c"></i> Linkedin
+            <a
+              class="contact-location"
+              href="https://www.linkedin.com/in/pedro-daniel-g%C3%B3mez-noveron-4838b6215/?originalSubdomain=mx"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Clic aquí</a
+            >
+            <br />
+            <i class="bx bxl-github icon-c"></i> GitHub
+            <a
+              class="contact-location"
+              href="https://github.com/DanielNoveron"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Clic aquí</a
+            >
+            <br /><br />
+            Estoy disponible para responder a tus preguntas y platicar cómo
+            podemos trabajar juntos para lograr tus objetivos en el mundo
+            digital. <br />
+            <br />
+            <strong class="wol">¡Espero con ansias tu mensaje!</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="comments" class="div-comments">
+      <div class="div-mask-gradient">
+        <div class="info-seniority">
+          <div class="div-header-section-experience">
+            <h2 class="section-page sp">OPINIONES SOBRE MI</h2>
+          </div>
+          <p class="text-seniority">
+            ¡No hay mejor referencia que la opinión de aquellos con los que he
+            tenido el placer de trabajar! A continuación, encontrarás
+            testimonios de personas y empresas con las que he colaborado en
+            diversos proyectos. Sus palabras son un reflejo de la calidad de mi
+            trabajo y el valor que aporto a cada proyecto.
+          </p>
+        </div>
+        <div class="div-comments-items">
+          <div class="comment">
+            <div class="cirlce-word bg-blue">J</div>
+            <p class="name">Jorge Paulino Molina</p>
+            <p class="company-name">BBVA</p>
+            <div class="div-comment-text">
+              Por mi parte como compañero DEV en el área de TDC, desarrollo sus
+              funciones que se le asignaron así como un gran espíritu de
+              compañerismo ante el equipo.
+              <br />
+              Teléfono: <a href="tel:+52 1 55 1340 5273">+52 1 55 1340 5273</a>
+            </div>
+            <div class="calification">
+              <!-- <i class='bx bxs-star star'></i>
+              <i class='bx bx-star star' ></i>
+              <i class='bx bxs-star-half star' ></i> -->
+              <i class="bx bxs-star star"></i>
+              <i class="bx bxs-star star"></i>
+              <i class="bx bxs-star star"></i>
+              <i class="bx bxs-star star"></i>
+              <i class="bx bxs-star star"></i>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="cirlce-word bg-purple">F</div>
+            <p class="name">Francisco Joath Flores</p>
+            <p class="company-name">
+              Universidad Tecnológica de Nezahualcóyotl
+            </p>
+            <div class="div-comment-text">
+              Es un compañero y la persona más responsable que he conocido y
+              comprometida con su trabajo y actividades, sobre todo ayuda a sus
+              compañeros y trabaja bien en equipo. Un gran trabajador y amigo
+              que ayuda a quien esa
+              <br />
+              Teléfono: <a href="tel:+52 1 55 8744 1051">+52 1 55 8744 1051</a>
+            </div>
+            <div class="calification">
+              <!-- <i class='bx bxs-star star'></i>
+              <i class='bx bx-star star' ></i>
+              <i class='bx bxs-star-half star' ></i> -->
+              <i class="bx bxs-star star"></i>
+              <i class="bx bxs-star star"></i>
+              <i class="bx bxs-star star"></i>
+              <i class="bx bxs-star star"></i>
+              <i class="bx bxs-star star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
-        <p>
-            &copy;  Copyright 2021 | Pedro Daniel Gomez Noveron <img src="./img/logoPNG.png" alt="logoPDGN"> | Desarrollador web back-end
-        </p>
+      <div class="div-footer">
+        <p>&copy;   Copyright 2023 | Pedro Daniel Gómez Noverón | Desarrollador web FullStack </p>
+        <div class="img-footer__logo">
+          <img src="./resources/images/PDGN_WHITE.webp" alt="LOGO">
+        </div>
+      </div>
     </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/index.js"></script>
-    <script src="./js/showNewWebPage.js"></script>
-</body>
-
+  </body>
 </html>
