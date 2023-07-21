@@ -548,6 +548,12 @@ footer {
 .img-footer__logo > img {
   width: 100%;
 }
+.div-comments-items{
+  margin-bottom: 150px;
+}
+.div-comments{
+  height: max-content;
+}
 @media screen and (max-width: 1400px) {
   .div-presentation {
     height: 140vh;
