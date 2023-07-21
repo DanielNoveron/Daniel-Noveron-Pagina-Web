@@ -516,7 +516,9 @@ html::-webkit-scrollbar-track {
 .bg-green {
   background-color: rgb(1, 168, 1);
 }
-
+.bg-pink{
+  background-color: rgb(255, 170, 184);
+}
 .bg-gray {
   background-color: #555;
 }
@@ -545,6 +547,21 @@ footer {
 
 .img-footer__logo > img {
   width: 100%;
+}
+@media screen and (max-width: 1400px) {
+  .div-presentation {
+    height: 140vh;
+  }
+  .div-seniority, .div-experience, .div-portfolio, .div-contact__me, .div-comments{
+    height: max-content;
+  }
+
+  .div-comments-items, .tccont, .div-company-experience, .abilitys{
+    margin-bottom: 150px;
+  }
+  .tccont{
+    margin-bottom: 200px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .div-presentation {
